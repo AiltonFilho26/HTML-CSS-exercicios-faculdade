@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Somos uma loja de construção muito foda mesmo, confia!">
+    <link rel="shortcut icon" href="https://rededaconstrucao.com/assets/imgs/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8c16e3ffb3.js" crossorigin="anonymous"></script>
+    <title>Loja de Construção</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            width: 100vw;
+            height: 100vh;
+            font-size: 62.5%;
+            color: black;
+            font-family: 'Lato', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: aliceblue;
+        }
+
+        header {
+            width: 100%;
+            height: 7vh;
+            background-color: rgba(177, 42, 42, 0.932);
+        }
+
+        .menu-content {
+            text-transform: uppercase;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        .logo {
+            font-size: 150%;
+            letter-spacing: 2px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .list-itens {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+
+        .list-itens a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            position: relative;
+        }
+
+        .list-itens a:hover {
+            background-color: black;
+            transition: 1s ease-in-out;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        main {
+            height: 93vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 1000px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 150px;
+        }
+
+        .card {
+            background: #9a191e;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+            border-radius: 30px;
+            transition: 1s;
+            color: white;
+            align-items: center;
+        }
+
+        .card:hover {
+            background: #b80f14;
+            transition: 1s;
+            box-shadow: 5px 5px 1px black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .card img {
+            width: 100px;
+            border-radius: 20px;
+            display: flex;
+            border: 2px solid white;
+        }
+
+        .banner {
+            width: 50px;
+        }
+
+        .titulos h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .produtos {
+            display: flex;
+            flex-direction: row;
+            gap: 200px;
+        }
+
+        .card-produtos {
+            display: flex;
+            flex-direction: column;
+            border: solid 0.4px;
+            border-color: #b80f14;
+            border-radius: 50px;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card-produtos img {
+            width: 300px;
+        }
+
+        .card-produtos h1 {
+            font-size: 30px;
+            color: #b80f14;
+            text-align: center;
+        }
+
+        .card-produtos h2 {
+            font-size: 25px;
+            color: rgb(5, 99, 5);
+        }
+
+        .locais{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:20px;
+        }
+
+        .locais img{
+            width: 1200px;
+        }
+        
+        h3{
+            font-size: 40px;
+            color:gray;
+            text-align: left;
+        }
+        h4 {
+            font-size: 40px;
+            color:b80f14;
+            text-decoration: underline;
+            text-align: center;
+            }
+
+        .rodape {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 32px;
+            margin-top: 1000px;
+            background-color: rgba(177, 42, 42, 0.932);
+        }
+        
+        .rodape-texto {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: white;
+        }
+
+        p{
+           color: #b80f14;
+           font-size: 20px;
+
+        }
+        
+        .green{
+            color:green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a id="inicio"><div class="menu-content"></a>
+            <h1 class="logo">Rede da Construção</h1>
+            <nav>
+                <ul class="list-itens">
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Nossas lojas</a></li>
+                    <li><a href="https://www.facebook.com/rededaconstrucaooficial"><i
+                                class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/rededaconstrucaooficial/"><i
+                                class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="https://cdn.discordapp.com/attachments/679458959278735363/974794927009595493/unknown.png">
+    </section>
+    <main>
+        <div class="titulos">
+            <h1>Categorias de Produtos</h1>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/679458959278735363/974763872986738718/unknown.png"
+                    alt="">
+                <h1>Cimento</h1>
+            </div>
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/679458959278735363/974789342809698345/unknown.png"
+                    alt="">
+                <h1>Argamassa</h1>
+            </div>
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/679458959278735363/974789407947247667/unknown.png"
+                    alt="">
+                <h1>Ferramentas</h1>
+            </div>
+            <div class="card">
+                <img src="https://cdn.discordapp.com/attachments/679458959278735363/974789521579339776/unknown.png"
+                    alt="">
+                <h1>Janelas</h1>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="titulos">
+            <h1>Os Melhores Produtos para<br>Você e para o seu Lar</h1>
+            </div>
+            <div>
+                <div class="produtos">
+                    <div class="card-produtos">
+                        <img src="https://cdn.discordapp.com/attachments/974677663870496780/974797732592091136/unknown.png"
+                            alt="">
+                        <h1>Cimento Extra forte</h1>
+                        <h2>De R$39,90 por R$29,90</h2>
+                    </div>
+                    <div class="card-produtos">
+                        <img src="https://cdn.discordapp.com/attachments/974677663870496780/974797998095749170/unknown.png"
+                            alt="">
+                        <h1>Janela Veneziana C/ Grade</h1>
+                        <h2>R$239,90</h2>
+                    </div>
+                    <div class="card-produtos">
+                        <img src="https://cdn.discordapp.com/attachments/974677663870496780/974798159693901885/unknown.png"
+                            alt="">
+                        <h1>Rejunte Porcelanato 5kg</h1>
+                        <h2>R$69,90</h2>
+                    </div>
+                    <div class="card-produtos">
+                        <img src="https://cdn.discordapp.com/attachments/974677663870496780/974798502540500992/unknown.png"
+                            alt="">
+                        <h1>Vedalit - Balde 18L</h1>
+                        <h2>R$185,00</h2>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+            <lidade class="locais">
+            <h4>Somos 5 lojas em Goiânia</h4> 
+            <p>Endereço: Av. Dep. Jamel Cecílio, 3160 - quadra B34, Lote 01 - Jardim Goiás, Goiânia - GO, 74810-100</p>
+            <p>Endereço: Av. T-10, 1300, qd 136, lojas 309/11, Goiânia - GO, 74223-060</p> 
+            <p>Endereço: Av. T-10, 900 QUADRA 106 LOTE 9 E 10 ESQ.T2 QD 106 LT8 - St. Bueno, Goiânia - GO, 74223-060</p> 
+            <p>Endereço: Av. T-63, 1404 - St. Nova Suica, Goiânia - GO, 74280-230</p>
+            <p>Endereço: Av. T-7, 649 - St. Bueno, Goiânia - GO, 74210-265</p>
+            <br>
+                <img src="https://cdn.discordapp.com/attachments/974677663870496780/974806057383768174/Mapa.gif">
+            <h3>Sobre Nós</h3>
+            <p>Somos uma rede de vizinhos, com mais de duas décadas de atuação, trabalhando o associativismo e levando consigo, valores como: Colaboração, Honestidade, Comprometimento e Integridade</p>
+            <p>Hoje, a Rede da Construção conta com associados espalhados por todo Estado de <span class="green">Goiás</span>, oferecendo um atendimento personalizado e atencioso, e levando a mesma quao justo para todos os nossos clientes</p>
+    </main>
+    
+    
+    <!--RodapeDoSanchoTaTudoOk-->
+    <footer class="rodape">
+        <nav class="rodape-imagem">
+            <a href="LojaDeConstrução.html#inicio"><img src="https://febramat.com.br/wp-content/uploads/2021/08/logo_rede_da_construcao_site-1.png"></a>
+        </nav>
+            <h2 class="rodape-texto"> Copyright © 2022 | Design by:<strong>Sites foda da UNIP</strong></h2>
+    </footer>
+    <!--RodapeDoSanchoTaTudoOk-->
+</body>
+
+
+
+</html>
